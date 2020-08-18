@@ -1,0 +1,6 @@
+.jumbotron {
+    background: url("../assets/photo-1508624217470-5ef0f947d8be.jpg") no-repeat center;
+    background-size: cover;
+    color: var(--gunmetal);
+    text-align: center;
+}
