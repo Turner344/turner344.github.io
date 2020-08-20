@@ -8,16 +8,20 @@
 }
 
 #myName {
-  margin-top: 5%;
+  margin-top: 4%;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
   font-family: var(--font-two);
   font-size: 75px;
 }
 #coder {
   font-family: var(--font-one);
   font-size: 30px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
-.btn-lg{
+.btn-lg {
   background: white;
   font-family: var(--font-one);
   border-radius: 15px;
@@ -25,6 +29,6 @@
   background-color: var(--blizzard);
 }
 
-.btn-lg:hover{
+.btn-lg:hover {
   background-color: white;
 }
