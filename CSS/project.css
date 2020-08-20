@@ -1,10 +1,11 @@
 .portfolioText{
     text-align: center;
-    text-decoration: underline;
+    font-weight: bolder;
 }
 
 .portfolio{
     text-align: center;
+    font-family: var(--font-one);
 }
 
 #thumbnail1{

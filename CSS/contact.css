@@ -14,9 +14,13 @@
 
 .contactMe {
   text-align: center;
-  text-decoration: underline;
+  font-weight: bolder;
 }
 
 .contactDiv{
     padding: 2%;
+}
+
+.contact{
+  font-family: var(--font-one);
 }
