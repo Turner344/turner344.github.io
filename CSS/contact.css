@@ -1,0 +1,13 @@
+#submit{
+    background-color: black;
+    color: white;
+    border: transparent;
+    border-radius: 12px;
+    height: 40px;
+    width: 12em;
+    font-weight: bold;
+}
+
+#submit:hover{
+    background-color: grey;
+}

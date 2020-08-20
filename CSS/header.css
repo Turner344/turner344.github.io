@@ -1,6 +1,30 @@
 .jumbotron {
-    background: url("../assets/photo-1508624217470-5ef0f947d8be.jpg") no-repeat center;
-    background-size: cover;
-    color: var(--gunmetal);
-    text-align: center;
+  background: url("../assets/photo-1488188840666-e2308741a62f.jpg") no-repeat
+    center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  height: 40em;
+}
+
+#myName {
+  margin-top: 5%;
+  font-family: var(--font-two);
+  font-size: 75px;
+}
+#coder {
+  font-family: var(--font-one);
+  font-size: 30px;
+}
+
+.btn-lg{
+  background: white;
+  font-family: var(--font-one);
+  border-radius: 15px;
+  font-weight: bold;
+  background-color: var(--blizzard);
+}
+
+.btn-lg:hover{
+  background-color: white;
 }

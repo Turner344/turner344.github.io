@@ -1,95 +1,299 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Turner Jimerson Jr Portfolio</title>
     <!-- Bootstrap CSS link -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
     <!-- Google Fonts link -->
-    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Yellowtail&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Yellowtail&display=swap"
+      rel="stylesheet"
+    />
     <!-- My CSS link -->
-    <link type="text/css" rel="stylesheet" href="./CSS/main.css"/>
-</head>
-<body>
-
+    <link type="text/css" rel="stylesheet" href="./CSS/main.css" />
+  </head>
+  <body>
     <!-- Navbar section -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="navContainer">
+      <nav class="navbar fixed-top navbar-light" style="background: #98dfea;">
+        <a class="navbar-brand" href="#">Welcome</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav" id="nav-content">
+          <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#landing-section">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#aboutLanding"
+                >About <span class="sr-only">(current)</span></a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#portfolioLanding">Portfolio</a>
             </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#experienceLanding">Experience</a>
+            </li> -->
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              <a class="nav-link" href="#contactLanding" tabindex="-1"
+                >Contact Me</a
+              >
             </li>
           </ul>
         </div>
       </nav>
+    </div>
 
-      <!-- Jumbotron -->
-      <section id="landing-section">
+    <!-- Jumbotron -->
+    <section id="landing-section">
+      <div class="info">
         <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-              <h1 class="display-4">Fluid jumbotron</h1>
-              <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-            </div>
-        </div>
-      </section>
-
-      <!-- Bootstrap Layout explanation -->
-      <section>
           <div class="container">
-              <div class="row">
-                <div class="col">This is a column</div>
-                <div class="col">This is a second column</div>
-              </div>
-              <div class="row">
-                <div class="col">This is another column</div>
-                <div class="col">This is another column</div>
-                <div class="col">This is another column</div>
-                <div class="col">This is another column</div>
-              </div>
-          </div>
-      </section>
-
-      <section id="contact">
-          <div class="container">
-            <form
-            action="https://formspree.io/xgenqkek"
-            method="POST"
+            <h1 class="display-4" id="myName">Turner Jimerson Jr</h1>
+            <p class="lead" id="coder">Javascript Developer</p>
+            <hr style="background-color: white; width: 28em; height: 2px;" />
+            <a
+              href="https://github.com/Turner344"
+              target="blank"
+              class="btn btn-default btn-lg"
             >
-                <label>
-                Your email:
-                <input type="text" name="_replyto">
-                </label>
-                <label>
-                Your message:
-                <textarea name="message"></textarea>
-                </label>
-            
-                <!-- your other form fields go here -->
-            
-                <button type="submit">Send</button>
-          </form>
+              <span>Github</span>
+            </a>
           </div>
-      </section>
+        </div>
+      </div>
+    </section>
+    <section class="aboutSection" id="aboutLanding">
+      <div class="about">
+        <h2 style="text-decoration: underline;">About Me</h2>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p class="aboutMe">
+              Hello! My name is Turner Jimerson Jr, I am a Javascript Developer.
+              I started learning how to code with Javascript in 2020, attending
+              the web design program at Eleven Fifty Academy. I am currently
+              still attending, as a hopeful graduate of this program. Though
+              I am new to this field, I have a strong desire to learn more and
+              become the best developer I can be.
+            </p>
+          </div>
+          <div class="col">
+            <p class="aboutMe">
+              I spent my high school years in a college level film program,
+              studying the process in which TV and Film production is handled
+              inside and out. Since then I have always been in love with the
+              process of brainstorming, creating, and improving on any project
+              I'm working on, and I decided that this would be a pretty
+              interesting field to get into because of that.
+            </p>
+          </div>
+          <div class="col">
+            <p class="aboutMe">
+              I am just 21 years old, with a lot of learning and growth ahead of
+              me! You can feel free to check out any of my previous projects on
+              <a href="https://github.com/Turner344" target="blank">Github</a>!
+              Also if you'd like, have a look at my
+              <a href="./assets/Turner's Resume.pdf" download>resume.</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr style="background-color: darkgrey; height: 4px; width: 95em;" />
+
+    <section class="portfolio" id="portfolioLanding">
+      <h2 class="portfolioText">Portfolio</h2>
+      <p class="portfolioBody">This is just the beginning of my projects portfolio, I have plenty more ahead of me and nowhere to go but up from here. All of my projects here have been written using either CodePen or Visual Studio Code, the programs I am most comfortable with at the moment. Have a look into any of the code that I've written so far!</p>
+      <div class="portfolioContent">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="thumbnail">
+                <a
+                  href="https://codepen.io/turner344/pen/abdrZRE"
+                  target="blank"
+                >
+                  <img id="thumbnail1" src="./assets/planktonImg.png" />
+                </a>
+                <div class="caption">
+                  <a
+                    href="https://codepen.io/turner344/pen/abdrZRE"
+                    target="blank"
+                    class="caption"
+                  >
+                    <h5>CSS Plankton</h5>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="thumbnail">
+                <a
+                  href="https://turner344.github.io/staticLayout/"
+                  target="blank"
+                >
+                  <img id="thumbnail2" src="./assets/huluImage.jpg" />
+                </a>
+                <div class="caption">
+                  <a
+                    href="https://turner344.github.io/staticLayout/"
+                    target="blank"
+                    class="caption"
+                  >
+                    <h5>Static Hulu Recreation</h5>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="thumbnail">
+              <a href="https://turner344.github.io/firstAPIAssignment/" target="blank">
+                <img id="thumbnail2" src="./assets/firstAPIImage.png" />
+              </a>
+              <div class="caption">
+                <a
+                  href="https://turner344.github.io/firstAPIAssignment/"
+                  target="blank"
+                  class="caption"
+                >
+                  <h5>Pokemon API Project</h5>
+                </a>
+              </div>
+            </div>
+          </div>
+            </div>
+          </div>
+          <div class="portfolioContent">
+            <div class="container">
+              <div class="row">
+                <div class="col">
+                  <div class="thumbnail">
+                    <a
+                      href="https://turnericemanapi.web.app/"
+                      target="blank"
+                    >
+                      <img id="thumbnail3" src="./assets/APITwo.png" />
+                    </a>
+                    <div class="caption">
+                      <a
+                        href="https://turnericemanapi.web.app/"
+                        target="blank"
+                        class="caption"
+                      >
+                        <h5>Superhero API Project</h5>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="thumbnail">
+                    <a
+                      href="https://www.google.com"
+                      target="blank"
+                    >
+                      <img id="thumbnail2" src="./assets/White_thumb.png" />
+                    </a>
+                    <div class="caption">
+                      <a
+                        href="https://www.google.com"
+                        target="blank"
+                        class="caption"
+                      >
+                        <h5>Blue Badge Assignment</h5>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="thumbnail">
+                  <a href="https://www.google.com" target="blank">
+                    <img id="thumbnail2" src="./assets/White_thumb.png" />
+                  </a>
+                  <div class="caption">
+                    <a
+                      href="https://www.google.com"
+                      target="blank"
+                      class="caption"
+                    >
+                      <h5>Red Badge Assignment</h5>
+                    </a>
+                  </div>
+                </div>
+              </div>
+                </div>
+              </div>
+      </div>
+    </section>
+
+    <hr style="background-color: darkgrey; height: 4px; width: 95em;" />
+
+    <section class="contact" id="contactLanding">
+      <div class="container">
+        <form action="https://formspree.io/xgenqkek" method="POST">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Your Name" />
+          </div>
+          <div class="form-group">
+            <input
+              type="email"
+              class="form-control"
+              placeholder="Your Email"
+              name="_replyto"
+            />
+          </div>
+          <div class="form-group">
+            <textarea
+              class="form-control"
+              rows="8"
+              placeholder="Your Message"
+              id="message"
+            ></textarea>
+          </div>
+          <button type="submit" id="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <hr style="width: 50em;" />
+
+    <footer class="footer">
+      <p id="footer">© Turner Jimerson 2020</p>
+    </footer>
 
     <!-- Bootstrap script tags -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
     <!-- My JS script tag -->
     <script src="main.js"></script>
-</body>
+  </body>
 </html>

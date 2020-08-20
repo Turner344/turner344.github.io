@@ -1,0 +1,43 @@
+.portfolioText{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.portfolio{
+    text-align: center;
+}
+
+#thumbnail1{
+    width: 15em;
+}
+
+#thumbnail2{
+    width: 22em;
+    height: 15em;
+}
+
+#thumbnail3{
+    width: 18em;
+    height: 15em;
+}
+
+.caption{
+    color: black;
+}
+
+.caption:hover{
+    color: black;
+}
+
+.portfolioContent{
+    padding: 2%;
+}
+
+.portfolioBody{
+    font-weight: 500;
+    font-size: 20px;
+    font-family: var(--font-one);
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 2%;
+}
