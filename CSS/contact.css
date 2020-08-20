@@ -1,13 +1,22 @@
-#submit{
-    background-color: black;
-    color: white;
-    border: transparent;
-    border-radius: 12px;
-    height: 40px;
-    width: 12em;
-    font-weight: bold;
+#submit {
+  background-color: black;
+  color: white;
+  border: transparent;
+  border-radius: 12px;
+  height: 40px;
+  width: 12em;
+  font-weight: bold;
 }
 
-#submit:hover{
-    background-color: grey;
+#submit:hover {
+  background-color: grey;
+}
+
+.contactMe {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.contactDiv{
+    padding: 2%;
 }
