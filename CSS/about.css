@@ -15,3 +15,11 @@
     text-align: center;
     margin-top: 3em;
 }
+
+#github{
+    color: var(--gold);
+}
+
+#resume{
+    color: var(--gold);
+}
